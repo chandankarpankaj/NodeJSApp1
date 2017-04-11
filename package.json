@@ -1,0 +1,30 @@
+{
+  "name": "nodejsapp",
+  "version": "0.0.0",
+  "description": "demo application",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandankarpankaj/NodeJSDemo.git"
+  },
+  "author": "Pankaj Chandankar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandankarpankaj/NodeJSDemo/issues"
+  },
+  "homepage": "https://github.com/chandankarpankaj/NodeJSDemo#readme",
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-handlebars": "^3.0.0",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  }
+}
